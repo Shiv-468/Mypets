@@ -8,7 +8,12 @@
     text-decoration: none !important;
     box-sizing: border-box;
 }
-
+.bg_img{
+    background-image: url(../images/webp/BachgroundImage.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .font_family_inter {
     font-family: "Inter", sans-serif;
 }
