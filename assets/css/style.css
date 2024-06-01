@@ -41,6 +41,8 @@
 
 .Leaderboard_button {
     padding: 8px 6px;
+    max-width: 109px;
+    width: 100%;
     border: 1px solid var(--dark-green2);
     border-radius: 4px;
     opacity: 0.5;
@@ -170,14 +172,11 @@
 .tabs .active {
     box-shadow: inset 2px 2px 0 0 rgba(12, 10, 9, .5);
     opacity: 1;
-}
-
-.margin_top_10 {
-    margin-top: 10px;
+    color: var(--dark-green);
 }
 
 .min_height_70 {
-    height: calc(100vh - 291.26px);
+    height: calc(100vh - 260.26px);
 }
 
 .px_21 {
