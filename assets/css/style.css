@@ -8,12 +8,14 @@
     text-decoration: none !important;
     box-sizing: border-box;
 }
-.bg_img{
+
+.bg_img {
     background-image: url(../images/webp/BachgroundImage.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .font_family_inter {
     font-family: "Inter", sans-serif;
 }
@@ -25,10 +27,6 @@
 
 .heading_padding_top {
     padding-top: 72px;
-}
-
-.letter_spacing_1 {
-    letter-spacing: 1%;
 }
 
 .all_button {
@@ -64,7 +62,8 @@
     border-radius: 4px;
     border: 1px solid #052E160D;
 }
-.dropdown input::placeholder{
+
+.dropdown input::placeholder {
     font-weight: 400;
 }
 
@@ -180,7 +179,7 @@
 }
 
 .scroll_min_height {
-    height: calc(100vh - 264.26px);
+    height: calc(100vh - 253.26px);
 }
 
 .px_21 {
@@ -284,55 +283,68 @@ input:checked+.slider:before {
     max-width: 28px;
     height: 32px;
 }
-.leaderboard_badge{
+
+.leaderboard_badge {
     padding: 7.5px 14px;
 }
-.Leaderboard_div{
+
+.Leaderboard_div {
     border: 1px solid var(--light-green);
     height: 50px;
 }
-.max_width_119{
+
+.max_width_119 {
     max-width: 119px;
 }
-.pts_button{
+
+.pts_button {
     padding: 10px 16px;
     border: 1px solid var(--dark-green);
     box-shadow: 1px 1px 0px 0px #16653480;
     border-radius: 6px;
     width: 100px;
 }
-.pts_button:disabled{
+
+.pts_button:disabled {
     border: 1px solid var(--dark-green);
     box-shadow: none !important;
     opacity: 0.5;
-    span{
+
+    span {
         color: #000000;
     }
 }
-.w3-modal{
+
+.w3-modal {
     min-height: 100vh;
     padding: 0 !important;
     max-width: 393px;
     position: absolute !important;
     background: #9ED2AECC !important;
+    backdrop-filter: blur(2px);
     padding-top: 40vh !important;
 }
-.modal_div{
+
+.modal_div {
     max-width: 360px;
 }
-.w3-modal-content{
+
+.w3-modal-content {
     max-width: 360px;
     background-color: var(--light-green) !important;
 }
-.Asphyxiated_id_div{
+
+.Asphyxiated_id_div {
     padding: 2px 6px;
 }
-.svg_div{
+
+.svg_div {
     width: 24px;
     height: 24px;
     border: 1px solid #052E1633;
 }
-.ok_button{
+
+.ok_button {
     border: 1px solid #16653480;
     box-shadow: 1px 1px 0px 0px #16653480;
     height: 48px;
