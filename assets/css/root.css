@@ -1,0 +1,72 @@
+:root{
+    --font-size-sm:11px;
+    --font-size-md:12px;
+    --font-size-lg:16px;
+    --font-size-xl:22px;
+    
+    --line-height-xsm:13.31px;
+    --line-height-sm:14.52px;
+    --line-height-md:16px;
+    --line-height-lg:19.36px;
+    --line-height-xl:26.63px;
+    
+    --dark-green:#052E16;
+    --dark-green2:#166534;
+    --light-green:#DCFCE7;
+    --light-gray:#F0FDF4;
+    --black:#0C0A09;
+    --light-black:#44403C;
+    --light-red:#F1DBDB;
+    --dark-red:#651616;
+}
+.color_red{
+    color: var(--dark-red);
+}
+.bg_light_red{
+    background: var(--light-red);
+}
+.color_light_black{
+    color: var(--light-black);
+}
+.color_dark_green2{
+    color: var(--dark-green2);
+}
+.color_black{
+    color: var(--black);
+}
+.bg_light_gray{
+    background: var(--light-gray);
+}
+.bg_light_green{
+    background: var(--light-green);
+}
+.color_dark_green{
+    color: var(--dark-green);
+}
+.font_size_sm{
+    font-size: var(--font-size-sm);
+}
+.font_size_md{
+    font-size: var(--font-size-md);
+}
+.font_size_lg{
+    font-size: var(--font-size-lg);
+}
+.font_size_xl{
+    font-size: var(--font-size-xl);
+}
+.line_height_xsm{
+    line-height: var(--line-height-xsm);
+}
+.line_height_sm{
+    line-height: var(--line-height-sm);
+}
+.line_height_md{
+    line-height: var(--line-height-md);
+}
+.line_height_lg{
+    line-height: var(--line-height-lg);
+}
+.line_height_xl{
+    line-height: var(--font-size-xl);
+}

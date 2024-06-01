@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/images/svg/Mypets.ico" type="image/x-icon">
+    <title>Feed All</title>
+</head>
+
+<body>
+    <section class=" d-flex justify-content-center">
+        <div class="Feed_page px-4 w-100 bg_light_green position-relative">
+            <nav class=" position-fixed bottom-0 nav_box w-100 py-2 px_21 bg_light_gray">
+                <ul class=" ps-0 mb-0 d-flex tab2">
+                    <li class="nav_tabs active"><a href="#" class=" d-flex flex-column align-items-center justify-content-center w-100">
+                        <img src="./assets/images/svg/Feedhome.svg" alt="Feedhome" class="w-100 nav_logo">
+                        <span class="font_size_sm line_height_xsm font_family_inter letter_spacing_1 fw-normal color_dark_green">Feed</span>
+                    </a></li>
+                    <li class="nav_tabs "><a href="#" class=" d-flex flex-column align-items-center justify-content-center w-100">
+                        <img src="./assets/images/svg/explore.svg" alt="explore" class="w-100 nav_logo">
+                        <span class="font_size_sm line_height_xsm font_family_inter letter_spacing_1 fw-normal color_dark_green">Explore</span>
+                    </a></li>
+                    <li class="nav_tabs "><a href="#" class=" d-flex flex-column align-items-center justify-content-center w-100">
+                        <img src="./assets/images/svg/Mypets.svg" alt="Mypets" class="w-100 nav_logo">
+                        <span class="font_size_sm line_height_xsm font_family_inter letter_spacing_1 fw-normal color_dark_green">My Pets</span>
+                    </a></li>
+                    <li class="nav_tabs "><a href="#" class=" d-flex flex-column align-items-center justify-content-center w-100">
+                        <img src="./assets/images/svg/swap.svg" alt="swap" class="w-100 nav_logo">
+                        <span class="font_size_sm line_height_xsm font_family_inter letter_spacing_1 fw-normal color_dark_green">Swap</span>
+                    </a></li>
+                    <li class="nav_tabs "><a href="#" class=" d-flex flex-column align-items-center justify-content-center w-100">
+                        <img src="./assets/images/svg/account.svg" alt="account" class="w-100 nav_logo">
+                        <span class="font_size_sm line_height_xsm font_family_inter letter_spacing_1 fw-normal color_dark_green">Account</span>
+                    </a></li>
+                </ul>
+            </nav>
+            <div class=" d-flex align-items-center justify-content-between heading_padding_top">
+                <h1 class=" mb-0 letter_spacing_1 fs-xl font_family_inter color_dark_green">Feed</h1>
+                <div class="wrapper bg_light_green">
+                    <div
+                        class="dropdown d-flex align-items-center justify-content-between font_family_inter font_size_lg fw-normal line_height_lg">
+                       <img src="./assets/images/svg/pet.svg" alt="pet" class="w-100 pet_svg">
+                        <input type="text" placeholder="#36985" readonly
+                            class=" font_family_inter font_size_lg fw-normal line_height_lg bg_light_gray" />
+                        <ul class="options p-0 mb-0">
+                            <li class="option font_family_inter font_size_lg fw-normal line_height_lg color_dark_green">#36986</li>
+                            <li class="option font_family_inter font_size_lg fw-normal line_height_lg color_dark_green">#36987</li>
+                            <li class="option font_family_inter font_size_lg fw-normal line_height_lg color_dark_green">#36988</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <div class=" d-flex tabs align-items-center justify-content-center buttons_padding_top gap-2">
+                <button class="all_button bg-transparent tab-head color_dark_green active">All</button>
+                <button class="Leaderboard_button bg-transparent tab-head color_dark_green">Leaderboard</button>
+            </div>
+            <div class="d-flex w-100">
+              <div class="tab-content w-100">
+                <div class="tab-item active overflow-y-scroll scroll_hidden min_height_70 margin_top_10">
+                    <div class=" p-2 d-flex justify-content-between align-items-center bg_light_gray rounded-1">
+                        <div class=" d-flex gap-2">
+                            <div class="badge1">
+                               <img src="./assets/images/svg/deadfish.svg" alt="deadfish" class="w-100">
+                            </div>
+                            <p
+                                class=" mb-0 color_black fw-normal max_width_186 font_size_lg line_height_lg font_family_inter">
+                                16982
+                                <span class=" color_light_black">attacked</span>
+                                Retardio
+                                <span class="color_light_black">and</span>
+                                <span class="color_dark_green2">won 159.82 points</span>
+                            </p>
+                        </div>
+                        <p
+                            class="mb-0 font_size_md line_height_sm font_family_inter letter_spacing_1 fw-normal color_light_black">
+                            13mn ago</p>
+                    </div>
+                    <div class=" p-2 mt-1 d-flex justify-content-between align-items-center bg_light_gray rounded-1">
+                        <div class=" d-flex gap-2">
+                            <div class="badge2 bg_light_red">
+                                <img src="./assets/images/svg/deadfish.svg" alt="deadfish" class="w-100">
+                            </div>
+                            <p
+                                class=" mb-0 color_black fw-normal max_width_186 font_size_lg line_height_lg font_family_inter">
+                                16982
+                                <span class=" color_light_black">attacked</span>
+                                Retardio
+                                <span class="color_light_black">and</span>
+                                <span class="color_red">won 159.82 points</span>
+                            </p>
+                        </div>
+                        <p
+                            class="mb-0 font_size_md line_height_sm font_family_inter letter_spacing_1 fw-normal color_light_black">
+                            13mn ago</p>
+                    </div>
+                    <div class=" p-2 mt-1 d-flex justify-content-between align-items-center bg_light_gray rounded-1">
+                        <div class=" d-flex gap-2">
+                            <div class="badge2 bg_light_red">
+                             <img src="./assets/images/svg/coin.svg" alt="badge2" class="w-100 badges">                             
+                            </div>
+                            <p
+                                class=" mb-0 color_black fw-normal max_width_186 font_size_lg line_height_lg font_family_inter">
+                                16982
+                                <span class=" color_light_black">attacked</span>
+                                Retardio
+                                <span class="color_light_black">and</span>
+                                <span class="color_red">won 159.82 points</span>
+                            </p>
+                        </div>
+                        <p
+                            class="mb-0 font_size_md line_height_sm font_family_inter letter_spacing_1 fw-normal color_light_black">
+                            13mn ago</p>
+                    </div>
+                    <div class=" p-2 mt-1 d-flex justify-content-between align-items-center bg_light_gray rounded-1">
+                        <div class=" d-flex gap-2">
+                            <div class="badge2 bg_light_red">
+                                <img src="./assets/images/svg/deadfish.svg" alt="deadfish" class="w-100">
+                            </div>
+                            <p
+                                class=" mb-0 color_black fw-normal max_width_186 font_size_lg line_height_lg font_family_inter">
+                                16982
+                                <span class=" color_light_black">attacked</span>
+                                Retardio
+                                <span class="color_light_black">and</span>
+                                <span class="color_red">won 159.82 points</span>
+                            </p>
+                        </div>
+                        <p
+                            class="mb-0 font_size_md line_height_sm font_family_inter letter_spacing_1 fw-normal color_light_black">
+                            13mn ago</p>
+                    </div>
+                    <div class=" p-2 mt-1 d-flex justify-content-between align-items-center bg_light_gray rounded-1">
+                        <div class=" d-flex gap-2">
+                            <div class="badge1">
+                               <img src="./assets/images/svg/deadfish.svg" alt="deadfish" class="w-100">
+                            </div>
+                            <p
+                                class=" mb-0 color_black fw-normal max_width_186 font_size_lg line_height_lg font_family_inter">
+                                16982
+                                <span class=" color_light_black">attacked</span>
+                                Retardio
+                                <span class="color_light_black">and</span>
+                                <span class="color_dark_green2">won 159.82 points</span>
+                            </p>
+                        </div>
+                        <p
+                            class="mb-0 font_size_md line_height_sm font_family_inter letter_spacing_1 fw-normal color_light_black">
+                            13mn ago</p>
+                    </div>
+                    <div class=" p-2 mt-1 d-flex justify-content-between align-items-center bg_light_gray rounded-1">
+                        <div class=" d-flex gap-2">
+                            <div class="badge2 bg_light_red">
+                                <img src="./assets/images/svg/deadfish.svg" alt="deadfish" class="w-100">
+                            </div>
+                            <p
+                                class=" mb-0 color_black fw-normal max_width_186 font_size_lg line_height_lg font_family_inter">
+                                16982
+                                <span class=" color_light_black">attacked</span>
+                                Retardio
+                                <span class="color_light_black">and</span>
+                                <span class="color_red">won 159.82 points</span>
+                            </p>
+                        </div>
+                        <p
+                            class="mb-0 font_size_md line_height_sm font_family_inter letter_spacing_1 fw-normal color_light_black">
+                            13mn ago</p>
+                    </div>
+                    <div class=" p-2 mt-1 d-flex justify-content-between align-items-center bg_light_gray rounded-1">
+                        <div class=" d-flex gap-2">
+                            <div class="badge1">
+                               <img src="./assets/images/svg/deadfish.svg" alt="deadfish" class="w-100">
+                            </div>
+                            <p
+                                class=" mb-0 color_black fw-normal max_width_186 font_size_lg line_height_lg font_family_inter">
+                                16982
+                                <span class=" color_light_black">attacked</span>
+                                Retardio
+                                <span class="color_light_black">and</span>
+                                <span class="color_dark_green2">won 159.82 points</span>
+                            </p>
+                        </div>
+                        <p
+                            class="mb-0 font_size_md line_height_sm font_family_inter letter_spacing_1 fw-normal color_light_black">
+                            13mn ago</p>
+                    </div>
+                    <div class=" p-2 mt-1 d-flex justify-content-between align-items-center bg_light_gray rounded-1">
+                        <div class=" d-flex gap-2">
+                            <div class="badge1">
+                                <img src="./assets/images/svg/shroom.svg" alt="shroom" class="w-100">
+                            </div>
+                            <p
+                                class=" mb-0 color_black fw-normal max_width_186 font_size_lg line_height_lg font_family_inter">
+                                16982
+                                <span class=" color_light_black">attacked</span>
+                                Retardio
+                                <span class="color_light_black">and</span>
+                                <span class="color_dark_green2">won 159.82 points</span>
+                            </p>
+                        </div>
+                        <p
+                            class="mb-0 font_size_md line_height_sm font_family_inter letter_spacing_1 fw-normal color_light_black">
+                            13mn ago</p>
+                    </div>
+                    <div class=" p-2 mt-1 d-flex justify-content-between align-items-center bg_light_gray rounded-1">
+                        <div class=" d-flex gap-2">
+                            <div class="badge1">
+                                <img src="./assets/images/svg/deadfish.svg" alt="deadfish" class="w-100">
+                            </div>
+                            <p
+                                class=" mb-0 color_black fw-normal max_width_186 font_size_lg line_height_lg font_family_inter">
+                                16982
+                                <span class=" color_light_black">attacked</span>
+                                Retardio
+                                <span class="color_light_black">and</span>
+                                <span class="color_dark_green2">won 159.82 points</span>
+                            </p>
+                        </div>
+                        <p
+                            class="mb-0 font_size_md line_height_sm font_family_inter letter_spacing_1 fw-normal color_light_black">
+                            13mn ago</p>
+                    </div>
+                    <div class=" p-2 mt-1 d-flex justify-content-between align-items-center bg_light_gray rounded-1">
+                        <div class=" d-flex gap-2">
+                            <div class="badge2 bg_light_red">
+                                <img src="./assets/images/svg/deadfish.svg" alt="deadfish" class="w-100">
+                            </div>
+                            <p
+                                class=" mb-0 color_black fw-normal max_width_186 font_size_lg line_height_lg font_family_inter">
+                                16982
+                                <span class=" color_light_black">attacked</span>
+                                Retardio
+                                <span class="color_light_black">and</span>
+                                <span class="color_red">won 159.82 points</span>
+                            </p>
+                        </div>
+                        <p
+                            class="mb-0 font_size_md line_height_sm font_family_inter letter_spacing_1 fw-normal color_light_black">
+                            13mn ago</p>
+                    </div>
+                    <div class=" p-2 mt-1 d-flex justify-content-between align-items-center bg_light_gray rounded-1">
+                        <div class=" d-flex gap-2">
+                            <div class="badge2 bg_light_red">
+                                <img src="./assets/images/svg/deadfish.svg" alt="deadfish" class="w-100">
+                            </div>
+                            <p
+                                class=" mb-0 color_black fw-normal max_width_186 font_size_lg line_height_lg font_family_inter">
+                                16982
+                                <span class=" color_light_black">attacked</span>
+                                Retardio
+                                <span class="color_light_black">and</span>
+                                <span class="color_red">won 159.82 points</span>
+                            </p>
+                        </div>
+                        <p
+                            class="mb-0 font_size_md line_height_sm font_family_inter letter_spacing_1 fw-normal color_light_black">
+                            13mn ago</p>
+                    </div>
+                    <div class=" p-2 d-flex justify-content-between align-items-center bg_light_gray rounded-1">
+                        <div class=" d-flex gap-2">
+                            <div class="badge1">
+                               <img src="./assets/images/svg/deadfish.svg" alt="deadfish" class="w-100">
+                            </div>
+                            <p
+                                class=" mb-0 color_black fw-normal max_width_186 font_size_lg line_height_lg font_family_inter">
+                                16982
+                                <span class=" color_light_black">attacked</span>
+                                Retardio
+                                <span class="color_light_black">and</span>
+                                <span class="color_dark_green2">won 159.82 points</span>
+                            </p>
+                        </div>
+                        <p
+                            class="mb-0 font_size_md line_height_sm font_family_inter letter_spacing_1 fw-normal color_light_black">
+                            13mn ago</p>
+                    </div> 
+                    <div class=" p-2 mt-1 d-flex justify-content-between align-items-center bg_light_gray rounded-1">
+                        <div class=" d-flex gap-2">
+                            <div class="badge2 bg_light_red">
+                                <img src="./assets/images/svg/deadfish.svg" alt="deadfish" class="w-100">
+                            </div>
+                            <p
+                                class=" mb-0 color_black fw-normal max_width_186 font_size_lg line_height_lg font_family_inter">
+                                16982
+                                <span class=" color_light_black">attacked</span>
+                                Retardio
+                                <span class="color_light_black">and</span>
+                                <span class="color_red">won 159.82 points</span>
+                            </p>
+                        </div>
+                        <p
+                            class="mb-0 font_size_md line_height_sm font_family_inter letter_spacing_1 fw-normal color_light_black">
+                            13mn ago</p>
+                    </div> 
+                    <div class=" p-2 mt-1 d-flex justify-content-between align-items-center bg_light_gray rounded-1">
+                        <div class=" d-flex gap-2">
+                            <div class="badge2 bg_light_red">
+                                <img src="./assets/images/svg/deadfish.svg" alt="deadfish" class="w-100">
+                            </div>
+                            <p
+                                class=" mb-0 color_black fw-normal max_width_186 font_size_lg line_height_lg font_family_inter">
+                                16982
+                                <span class=" color_light_black">attacked</span>
+                                Retardio
+                                <span class="color_light_black">and</span>
+                                <span class="color_red">won 159.82 points</span>
+                            </p>
+                        </div>
+                        <p
+                            class="mb-0 font_size_md line_height_sm font_family_inter letter_spacing_1 fw-normal color_light_black">
+                            13mn ago</p>
+                    </div> 
+                    <div class=" p-2 d-flex justify-content-between align-items-center bg_light_gray rounded-1">
+                        <div class=" d-flex gap-2">
+                            <div class="badge1">
+                               <img src="./assets/images/svg/deadfish.svg" alt="deadfish" class="w-100">
+                            </div>
+                            <p
+                                class=" mb-0 color_black fw-normal max_width_186 font_size_lg line_height_lg font_family_inter">
+                                16982
+                                <span class=" color_light_black">attacked</span>
+                                Retardio
+                                <span class="color_light_black">and</span>
+                                <span class="color_dark_green2">won 159.82 points</span>
+                            </p>
+                        </div>
+                        <p
+                            class="mb-0 font_size_md line_height_sm font_family_inter letter_spacing_1 fw-normal color_light_black">
+                            13mn ago</p>
+                    </div>               
+                   </div>
+                   <div class="tab-item ">
+                 <div class=" d-flex align-items-center gap-1 pt-3">
+                    <label class="switch">
+                        <input type="checkbox" checked>
+                        <span class="slider round"></span>
+                      </label>
+                      <p class="mb-0 fw-normal font_size_md line_height_sm color_dark_green font_family_inter">Show Bonkable (32)</p>
+                 </div>
+                 <div class=" d-flex align-items-center gap-1 pt-2">
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                      </label>
+                      <p class="mb-0 fw-normal font_size_md line_height_sm color_dark_green font_family_inter">My pets</p>
+                 </div>
+             <div class="overflow-y-scroll scroll_hidden min_height_70 mt-4">
+                <div class=" p-2 d-flex justify-content-between align-items-center bg_light_gray rounded-1">
+                    <div class=" d-flex gap-2">
+                        <div class="badge1">
+                           <img src="./assets/images/svg/deadfish.svg" alt="deadfish" class="w-100">
+                        </div>
+                        <p
+                            class=" mb-0 color_black fw-normal max_width_186 font_size_lg line_height_lg font_family_inter">
+                            16982
+                            <span class=" color_light_black">attacked</span>
+                            Retardio
+                            <span class="color_light_black">and</span>
+                            <span class="color_dark_green2">won 159.82 points</span>
+                        </p>
+                    </div>
+                    <p
+                        class="mb-0 font_size_md line_height_sm font_family_inter letter_spacing_1 fw-normal color_light_black">
+                        13mn ago</p>
+                </div>
+                <div class=" p-2 mt-1 d-flex justify-content-between align-items-center bg_light_gray rounded-1">
+                    <div class=" d-flex gap-2">
+                        <div class="badge2 bg_light_red">
+                            <img src="./assets/images/svg/deadfish.svg" alt="deadfish" class="w-100">
+                        </div>
+                        <p
+                            class=" mb-0 color_black fw-normal max_width_186 font_size_lg line_height_lg font_family_inter">
+                            16982
+                            <span class=" color_light_black">attacked</span>
+                            Retardio
+                            <span class="color_light_black">and</span>
+                            <span class="color_red">won 159.82 points</span>
+                        </p>
+                    </div>
+                    <p
+                        class="mb-0 font_size_md line_height_sm font_family_inter letter_spacing_1 fw-normal color_light_black">
+                        13mn ago</p>
+                </div>
+                <div class=" p-2 mt-1 d-flex justify-content-between align-items-center bg_light_gray rounded-1">
+                    <div class=" d-flex gap-2">
+                        <div class="badge2 bg_light_red">
+                         <img src="./assets/images/svg/coin.svg" alt="badge2" class="w-100 badges">                             
+                        </div>
+                        <p
+                            class=" mb-0 color_black fw-normal max_width_186 font_size_lg line_height_lg font_family_inter">
+                            16982
+                            <span class=" color_light_black">attacked</span>
+                            Retardio
+                            <span class="color_light_black">and</span>
+                            <span class="color_red">won 159.82 points</span>
+                        </p>
+                    </div>
+                    <p
+                        class="mb-0 font_size_md line_height_sm font_family_inter letter_spacing_1 fw-normal color_light_black">
+                        13mn ago</p>
+                </div>
+                <div class=" p-2 mt-1 d-flex justify-content-between align-items-center bg_light_gray rounded-1">
+                    <div class=" d-flex gap-2">
+                        <div class="badge2 bg_light_red">
+                            <img src="./assets/images/svg/deadfish.svg" alt="deadfish" class="w-100">
+                        </div>
+                        <p
+                            class=" mb-0 color_black fw-normal max_width_186 font_size_lg line_height_lg font_family_inter">
+                            16982
+                            <span class=" color_light_black">attacked</span>
+                            Retardio
+                            <span class="color_light_black">and</span>
+                            <span class="color_red">won 159.82 points</span>
+                        </p>
+                    </div>
+                    <p
+                        class="mb-0 font_size_md line_height_sm font_family_inter letter_spacing_1 fw-normal color_light_black">
+                        13mn ago</p>
+                </div>
+                <div class=" p-2 mt-1 d-flex justify-content-between align-items-center bg_light_gray rounded-1">
+                    <div class=" d-flex gap-2">
+                        <div class="badge1">
+                           <img src="./assets/images/svg/deadfish.svg" alt="deadfish" class="w-100">
+                        </div>
+                        <p
+                            class=" mb-0 color_black fw-normal max_width_186 font_size_lg line_height_lg font_family_inter">
+                            16982
+                            <span class=" color_light_black">attacked</span>
+                            Retardio
+                            <span class="color_light_black">and</span>
+                            <span class="color_dark_green2">won 159.82 points</span>
+                        </p>
+                    </div>
+                    <p
+                        class="mb-0 font_size_md line_height_sm font_family_inter letter_spacing_1 fw-normal color_light_black">
+                        13mn ago</p>
+                </div>
+                <div class=" p-2 mt-1 d-flex justify-content-between align-items-center bg_light_gray rounded-1">
+                    <div class=" d-flex gap-2">
+                        <div class="badge2 bg_light_red">
+                            <img src="./assets/images/svg/deadfish.svg" alt="deadfish" class="w-100">
+                        </div>
+                        <p
+                            class=" mb-0 color_black fw-normal max_width_186 font_size_lg line_height_lg font_family_inter">
+                            16982
+                            <span class=" color_light_black">attacked</span>
+                            Retardio
+                            <span class="color_light_black">and</span>
+                            <span class="color_red">won 159.82 points</span>
+                        </p>
+                    </div>
+                    <p
+                        class="mb-0 font_size_md line_height_sm font_family_inter letter_spacing_1 fw-normal color_light_black">
+                        13mn ago</p>
+                </div>
+                <div class=" p-2 mt-1 d-flex justify-content-between align-items-center bg_light_gray rounded-1">
+                    <div class=" d-flex gap-2">
+                        <div class="badge1">
+                           <img src="./assets/images/svg/deadfish.svg" alt="deadfish" class="w-100">
+                        </div>
+                        <p
+                            class=" mb-0 color_black fw-normal max_width_186 font_size_lg line_height_lg font_family_inter">
+                            16982
+                            <span class=" color_light_black">attacked</span>
+                            Retardio
+                            <span class="color_light_black">and</span>
+                            <span class="color_dark_green2">won 159.82 points</span>
+                        </p>
+                    </div>
+                    <p
+                        class="mb-0 font_size_md line_height_sm font_family_inter letter_spacing_1 fw-normal color_light_black">
+                        13mn ago</p>
+                </div>
+                <div class=" p-2 mt-1 d-flex justify-content-between align-items-center bg_light_gray rounded-1">
+                    <div class=" d-flex gap-2">
+                        <div class="badge1">
+                            <img src="./assets/images/svg/shroom.svg" alt="shroom" class="w-100">
+                        </div>
+                        <p
+                            class=" mb-0 color_black fw-normal max_width_186 font_size_lg line_height_lg font_family_inter">
+                            16982
+                            <span class=" color_light_black">attacked</span>
+                            Retardio
+                            <span class="color_light_black">and</span>
+                            <span class="color_dark_green2">won 159.82 points</span>
+                        </p>
+                    </div>
+                    <p
+                        class="mb-0 font_size_md line_height_sm font_family_inter letter_spacing_1 fw-normal color_light_black">
+                        13mn ago</p>
+                </div>
+                <div class=" p-2 mt-1 d-flex justify-content-between align-items-center bg_light_gray rounded-1">
+                    <div class=" d-flex gap-2">
+                        <div class="badge1">
+                            <img src="./assets/images/svg/deadfish.svg" alt="deadfish" class="w-100">
+                        </div>
+                        <p
+                            class=" mb-0 color_black fw-normal max_width_186 font_size_lg line_height_lg font_family_inter">
+                            16982
+                            <span class=" color_light_black">attacked</span>
+                            Retardio
+                            <span class="color_light_black">and</span>
+                            <span class="color_dark_green2">won 159.82 points</span>
+                        </p>
+                    </div>
+                    <p
+                        class="mb-0 font_size_md line_height_sm font_family_inter letter_spacing_1 fw-normal color_light_black">
+                        13mn ago</p>
+                </div>
+                <div class=" p-2 mt-1 d-flex justify-content-between align-items-center bg_light_gray rounded-1">
+                    <div class=" d-flex gap-2">
+                        <div class="badge2 bg_light_red">
+                            <img src="./assets/images/svg/deadfish.svg" alt="deadfish" class="w-100">
+                        </div>
+                        <p
+                            class=" mb-0 color_black fw-normal max_width_186 font_size_lg line_height_lg font_family_inter">
+                            16982
+                            <span class=" color_light_black">attacked</span>
+                            Retardio
+                            <span class="color_light_black">and</span>
+                            <span class="color_red">won 159.82 points</span>
+                        </p>
+                    </div>
+                    <p
+                        class="mb-0 font_size_md line_height_sm font_family_inter letter_spacing_1 fw-normal color_light_black">
+                        13mn ago</p>
+                </div>
+                <div class=" p-2 mt-1 d-flex justify-content-between align-items-center bg_light_gray rounded-1">
+                    <div class=" d-flex gap-2">
+                        <div class="badge2 bg_light_red">
+                            <img src="./assets/images/svg/deadfish.svg" alt="deadfish" class="w-100">
+                        </div>
+                        <p
+                            class=" mb-0 color_black fw-normal max_width_186 font_size_lg line_height_lg font_family_inter">
+                            16982
+                            <span class=" color_light_black">attacked</span>
+                            Retardio
+                            <span class="color_light_black">and</span>
+                            <span class="color_red">won 159.82 points</span>
+                        </p>
+                    </div>
+                    <p
+                        class="mb-0 font_size_md line_height_sm font_family_inter letter_spacing_1 fw-normal color_light_black">
+                        13mn ago</p>
+                </div>
+                <div class=" p-2 d-flex justify-content-between align-items-center bg_light_gray rounded-1">
+                    <div class=" d-flex gap-2">
+                        <div class="badge1">
+                           <img src="./assets/images/svg/deadfish.svg" alt="deadfish" class="w-100">
+                        </div>
+                        <p
+                            class=" mb-0 color_black fw-normal max_width_186 font_size_lg line_height_lg font_family_inter">
+                            16982
+                            <span class=" color_light_black">attacked</span>
+                            Retardio
+                            <span class="color_light_black">and</span>
+                            <span class="color_dark_green2">won 159.82 points</span>
+                        </p>
+                    </div>
+                    <p
+                        class="mb-0 font_size_md line_height_sm font_family_inter letter_spacing_1 fw-normal color_light_black">
+                        13mn ago</p>
+                </div>
+                <div class=" p-2 mt-1 d-flex justify-content-between align-items-center bg_light_gray rounded-1">
+                    <div class=" d-flex gap-2">
+                        <div class="badge2 bg_light_red">
+                            <img src="./assets/images/svg/deadfish.svg" alt="deadfish" class="w-100">
+                        </div>
+                        <p
+                            class=" mb-0 color_black fw-normal max_width_186 font_size_lg line_height_lg font_family_inter">
+                            16982
+                            <span class=" color_light_black">attacked</span>
+                            Retardio
+                            <span class="color_light_black">and</span>
+                            <span class="color_red">won 159.82 points</span>
+                        </p>
+                    </div>
+                    <p
+                        class="mb-0 font_size_md line_height_sm font_family_inter letter_spacing_1 fw-normal color_light_black">
+                        13mn ago</p>
+                </div>
+                <div class=" p-2 mt-1 d-flex justify-content-between align-items-center bg_light_gray rounded-1">
+                    <div class=" d-flex gap-2">
+                        <div class="badge2 bg_light_red">
+                            <img src="./assets/images/svg/deadfish.svg" alt="deadfish" class="w-100">
+                        </div>
+                        <p
+                            class=" mb-0 color_black fw-normal max_width_186 font_size_lg line_height_lg font_family_inter">
+                            16982
+                            <span class=" color_light_black">attacked</span>
+                            Retardio
+                            <span class="color_light_black">and</span>
+                            <span class="color_red">won 159.82 points</span>
+                        </p>
+                    </div>
+                    <p
+                        class="mb-0 font_size_md line_height_sm font_family_inter letter_spacing_1 fw-normal color_light_black">
+                        13mn ago</p>
+                </div>
+                <div class=" p-2 d-flex justify-content-between align-items-center bg_light_gray rounded-1">
+                    <div class=" d-flex gap-2">
+                        <div class="badge1">
+                           <img src="./assets/images/svg/deadfish.svg" alt="deadfish" class="w-100">
+                        </div>
+                        <p
+                            class=" mb-0 color_black fw-normal max_width_186 font_size_lg line_height_lg font_family_inter">
+                            16982
+                            <span class=" color_light_black">attacked</span>
+                            Retardio
+                            <span class="color_light_black">and</span>
+                            <span class="color_dark_green2">won 159.82 points</span>
+                        </p>
+                    </div>
+                    <p
+                        class="mb-0 font_size_md line_height_sm font_family_inter letter_spacing_1 fw-normal color_light_black">
+                        13mn ago</p>
+                </div>
+             </div>
+                   </div>
+              </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/app.js"></script>
+    <script>
+        let tabs = document.querySelectorAll(".tabs .tab-head");
+        let tabContents = document.querySelectorAll(".tab-content .tab-item");
+        tabs.forEach((tab, index) => {
+            tab.addEventListener("click", () => {
+                tabContents.forEach((content) => {
+                    content.classList.remove("active");
+                });
+                tabs.forEach((tab) => {
+                    tab.classList.remove("active");
+                });
+                tabContents[index].classList.add("active");
+                tabs[index].classList.add("active");
+            });
+        });
+        let tab2 = document.querySelectorAll(".tab2 .nav_tabs");
+        let tabContent2 = document.querySelectorAll(".tab-content .tab-item");
+        tab2.forEach((tab, index) => {
+            tab.addEventListener("click", () => {
+                tabContent2.forEach((content) => {
+                    content.classList.remove("active");
+                });
+                tab2.forEach((tab) => {
+                    tab.classList.remove("active");
+                });
+                tabContent2[index].classList.add("active");
+                tab2[index].classList.add("active");
+            });
+        });
+    </script>
+</body>
+
+</html>
