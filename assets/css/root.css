@@ -15,9 +15,14 @@
     --light-green:#DCFCE7;
     --light-gray:#F0FDF4;
     --black:#0C0A09;
-    --light-black:#44403C;
+    --brown:#342E2E;
+    --light-black:#44403C; 
+    --light-black2:#D6D3D1;
     --light-red:#F1DBDB;
-    --dark-red:#651616;
+    --dark-red:#171414;
+}
+.color_brown{
+    color: var(--brown);
 }
 .color_red{
     color: var(--dark-red);
@@ -28,6 +33,9 @@
 .color_light_black{
     color: var(--light-black);
 }
+.color_light_black2{
+    color: var(--light-black2);
+}
 .color_dark_green2{
     color: var(--dark-green2);
 }
@@ -36,6 +44,9 @@
 }
 .bg_light_gray{
     background: var(--light-gray);
+}
+.color_light_gray{
+    color: var(--light-gray);
 }
 .bg_light_green{
     background: var(--light-green);

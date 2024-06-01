@@ -50,7 +50,7 @@
 
 .pet_svg {
     max-width: 11px;
-    z-index: 9999;
+    z-index: 1;
 }
 
 .wrapper {
@@ -73,7 +73,7 @@
     position: absolute;
     right: 3px;
     top: 9px;
-    z-index: 9999;
+    z-index: 1;
     width: 10px;
     height: 10px;
     background-image: url(../images/svg/Vector24.svg);
@@ -110,7 +110,7 @@
     outline: none;
     overflow: hidden;
     position: absolute;
-    z-index: 10;
+    z-index: 1;
     top: 30px;
     left: 0;
     transition: all 0.7s ease;
@@ -145,7 +145,7 @@
 }
 
 .buttons_padding_top {
-    padding-top: 38px;
+    padding-top: 22px;
 }
 
 .badge1 {
@@ -288,5 +288,54 @@ input:checked+.slider:before {
     padding: 7.5px 14px;
 }
 .Leaderboard_div{
-    border: 1px solid #DCFCE7
+    border: 1px solid var(--light-green);
+    height: 50px;
+}
+.max_width_119{
+    max-width: 119px;
+}
+.pts_button{
+    padding: 10px 16px;
+    border: 1px solid var(--dark-green);
+    box-shadow: 1px 1px 0px 0px #16653480;
+    border-radius: 6px;
+    width: 100px;
+}
+.pts_button:disabled{
+    border: 1px solid var(--dark-green);
+    box-shadow: none !important;
+    opacity: 0.5;
+    span{
+        color: #000000;
+    }
+}
+.w3-modal{
+    min-height: 100vh;
+    padding: 0 !important;
+    max-width: 393px;
+    position: absolute !important;
+    background: #9ED2AECC !important;
+    padding-top: 40vh !important;
+}
+.modal_div{
+    max-width: 360px;
+}
+.w3-modal-content{
+    max-width: 360px;
+    background-color: var(--light-green) !important;
+}
+.Asphyxiated_id_div{
+    padding: 2px 6px;
+}
+.svg_div{
+    width: 24px;
+    height: 24px;
+    border: 1px solid #052E1633;
+}
+.ok_button{
+    border: 1px solid #16653480;
+    box-shadow: 1px 1px 0px 0px #16653480;
+    height: 48px;
+    max-width: 344px;
+    background: var(--dark-green2);
 }
