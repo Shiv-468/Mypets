@@ -281,3 +281,9 @@ input:checked+.slider:before {
     max-width: 28px;
     height: 32px;
 }
+.leaderboard_badge{
+    padding: 7.5px 14px;
+}
+.Leaderboard_div{
+    border: 1px solid #DCFCE7
+}
