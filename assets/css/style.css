@@ -175,8 +175,8 @@
     color: var(--dark-green);
 }
 
-.min_height_70 {
-    height: calc(100vh - 260.26px);
+.scroll_min_height {
+    height: calc(100vh - 264.26px);
 }
 
 .px_21 {
