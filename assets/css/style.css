@@ -48,7 +48,7 @@
 
 .pet_svg {
     max-width: 11px;
-    z-index: 1;
+    z-index: 12;
 }
 
 .wrapper {
@@ -60,7 +60,6 @@
     width: 102px;
     height: 27px;
     border-radius: 4px;
-    border: 1px solid #052E160D;
 }
 
 .dropdown input::placeholder {
@@ -72,7 +71,7 @@
     position: absolute;
     right: 3px;
     top: 9px;
-    z-index: 1;
+    z-index: 99;
     width: 10px;
     height: 10px;
     background-image: url(../images/svg/Vector24.svg);
@@ -107,17 +106,13 @@
     cursor: pointer;
     border: none;
     outline: none;
-    overflow: hidden;
     position: absolute;
-    z-index: 1;
     top: 30px;
     left: 0;
     transition: all 0.7s ease;
     opacity: 0;
     transform: translateY(-50px);
     visibility: hidden;
-    background: white;
-
 }
 
 .dropdown .options .option {
@@ -156,7 +151,6 @@
 .badge2 {
     padding: 6px;
     border-radius: 4px;
-
 }
 
 .max_width_186 {
@@ -179,7 +173,7 @@
 }
 
 .scroll_min_height {
-    height: calc(100vh - 253.26px);
+    height: 70vh;
 }
 
 .px_21 {
@@ -241,8 +235,6 @@ input:checked+.slider {
     background-color: var(--dark-green2);
     box-shadow: 2px 2px 0px 0px #0C0A0980 inset;
 }
-
-
 
 input:checked+.slider:before {
     -webkit-transform: translateX(26px);
@@ -350,4 +342,21 @@ input:checked+.slider:before {
     height: 48px;
     max-width: 344px;
     background: var(--dark-green2);
+}
+
+.tabbox .tab_heading {
+    display: none;
+}
+
+.tab_heading.active {
+    display: block;
+}
+
+.tab_heading {
+    padding: 4px 16px;
+}
+
+.img1 {
+    width: 12px;
+    height: 12px;
 }

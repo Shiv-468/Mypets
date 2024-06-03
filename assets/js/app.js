@@ -23,7 +23,6 @@ body.addEventListener('click', closeDropdownFromOutside);
 listOfOptions.forEach((option) => {
   option.addEventListener('click', selectOption);
 });
-
 dropdown.addEventListener('click', toggleDropdown);
 
 
@@ -35,5 +34,3 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
-
-
