@@ -173,7 +173,7 @@
 }
 
 .scroll_min_height {
-    height: 70vh;
+    height: calc(100vh - 300px);
 }
 
 .px_21 {
