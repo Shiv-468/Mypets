@@ -46,6 +46,7 @@
     height: 32px;
     width: 100%;
     border: 1px solid var(--dark-green2);
+    box-shadow: 1px 1px 0px 0px #052E1633;
     border-radius: 4px;
     opacity: 0.5;
 }
